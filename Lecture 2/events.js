@@ -66,3 +66,26 @@ tlacitkoHodKostkou.addEventListener("click", function () {
 	let odstavecVysledek = document.querySelector("#hodKostkouVysledek");
 	odstavecVysledek.innerHTML = `<img src="dice-${cisloNaKostce}.svg">`;
 });
+
+// --------------------------------------------------
+
+// Obsluha kliknutí na tlačítko "házej kostkou, dokud nepadne šestka": po jeho stisknutí se hází kostkou tak dlouho,
+// než padne šestka, a do odstavce připraveného v HTML se zobrazí obrázky kostky reprezentující všechny hody, které
+// byly potřeba
+let tlacitkoHazejKostkouDoSestky = document.querySelector("#hazejKostkouDoSestky");
+tlacitkoHazejKostkouDoSestky.addEventListener("click", function () {
+	// proměnná, do které budeme postupně slepovat výsledné "innerHTML" všech obrázků kostek
+	let vyslednyObsah = "";
+	// proměnná obsahující výsledek jednoho hodu kostkou
+	let cisloNaKostce;
+	do {
+		// hození kostkou
+		cisloNaKostce = hodKostkou(6);
+		// aktualizace výsledného obsahu o jeden obrázek
+		vyslednyObsah = vyslednyObsah + `<img src="dice-${cisloNaKostce}.svg"> `;
+	} while (cisloNaKostce !== 6);
+
+	// nalezení odstavce připraveného pro zapsání výsledku a změna jeho obsahu
+	let odstavecVysledek = document.querySelector("#hazejKostkouDoSestkyVysledek");
+	odstavecVysledek.innerHTML = vyslednyObsah;
+});
