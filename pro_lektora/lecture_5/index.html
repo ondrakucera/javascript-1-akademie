@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="program.js"></script>
+		<title>ReactGirls, JavaScript 1 akademie, Guess the number reversed</title>
+	</head>
+	<!-- body má následující třídy vyjadřující stav hry: pred-hrou, pri-hre a po-hre -->
+	<body class="pred-hrou">
+		<header>
+			<p><img src="logo-blue.svg" alt="Logo ReactGirls" /></p>
+			<h1>Zavař počítač!</h1>
+		</header>
+
+		<main>
+			<section class="oznameni-vyhry">
+				<h2>Potřeboval jsem <span class="pocet-pokusu-vyhra-zformatovano"></span></h2>
+			</section>
+
+			<section class="pravidla">
+				<h2>Pravidla</h2>
+				<ul>
+					<li>Mysli si číslo mezi 1 a 100 (včetně).</li>
+					<li>Až zmáčkneš tlačítko Start, pokusím se uhodnout myšlené číslo.</li>
+					<li>Tvým úkolem je říct mi, jestli můj tip je příliš nízký, příliš vysoký, nebo správný.</li>
+					<li>Prosím, nepodváděj. (Stejně to poznám.)</li>
+				</ul>
+			</section>
+
+			<section class="hraci-pole">
+				<h3>Můj tip číslo <span class="pocet-pokusu"></span>: <span class="aktualni-tip"></span></h3>
+				<div>
+					<button class="tlacitko-pridej">Přidej</button>
+					<button class="tlacitko-trefa">Trefa!</button>
+					<button class="tlacitko-uber">Uber</button>
+				</div>
+			</section>
+
+			<section class="ovladani-hry">
+				<button class="tlacitko-start">Start</button>
+				<button class="tlacitko-hrat-znovu">Hrát znovu</button>
+			</section>
+		</main>
+
+		<footer>
+			Vytvořeno v rámci JavaScript 1 akademie <a href="https://reactgirls.com/">ReactGirls</a>, 23. 4. 2024
+		</footer>
+	</body>
+</html>
