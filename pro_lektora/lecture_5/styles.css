@@ -1,0 +1,43 @@
+header p {
+	text-align: right;
+}
+
+header img {
+	width: 5%;
+}
+
+.pred-hrou .oznameni-vyhry {
+	display: none;
+}
+
+.pred-hrou .hraci-pole {
+	display: none;
+}
+
+.pred-hrou .tlacitko-hrat-znovu {
+	display: none;
+}
+
+.pri-hre .oznameni-vyhry {
+	display: none;
+}
+
+.pri-hre .pravidla {
+	display: none;
+}
+
+.pri-hre .tlacitko-start {
+	display: none;
+}
+
+.po-hre .pravidla {
+	display: none;
+}
+
+.po-hre .hraci-pole {
+	display: none;
+}
+
+.po-hre .tlacitko-start {
+	display: none;
+}
