@@ -48,9 +48,6 @@ nějakého minima do nějakého maxima odvodit postupně krok za krokem na tabul
 bližšího komentáře (s tím, že zájemcům je možné bližší detaily podat bokem – jednou jsme ji taky vysvětlovali následně
 po lekci v hospodě).
 
-Konkrétní domácí úkol z této lekce aktuálně neexistuje. Neformální doporučení zní znovu si ukázky z hodiny doma projít
-a zkusit si je mírně modifikovat.
-
 ### Document Object Model, události
 
 Ukázky této lekce se od předchozí liší tím, že potřebné HTML (a CSS) je plně připravené. Před hodinou je tedy potřeba
@@ -61,13 +58,6 @@ GitHubu).
 Za povšimnutí stojí, že na této lekci vkládáme element `script` na poslední místo v těle dokumentu, abychom ze skriptu
 mohli ihned přistupovat k DOMu (protože až ve druhé části hodiny vůbec představíme koncept události).
 
-Konkrétní domácí úkol z této lekce aktuálně neexistuje. Mezi možná budoucí zadání, která ale bude potřeba formalizovat,
-patří:
-
-- Vytvořit si svůj vlastní `div` a na něm si vyzkoušet obsluhu událostí `mouseover` a `mouseout`.
-- Vytvořit si dva `div`y: nad jedním bude odchytávána událost `mousemove` a do druhého se budou při pohybu myší nad
-  prvním vypisovat informace o aktuálních souřadnicích myši (`event.screenX` a `event.screenY`).
-
 ### Řetězce, pole, objekty, funkce
 
 V této lekci už je poměrně hodně ukázek, které některým účastníkům (především těm s nějakými předchozími znalostmi nebo
@@ -76,9 +66,6 @@ na čas pro ně potřebný.
 
 Původně tato lekce obsahovala ještě navazující povídání o funkcích, ale v roce 2024 jsme se tuto část rozhodli
 přesunout do JavaScript 2 akademie. Do budoucna bychom měli zmínku o funkcích odstranit z názvu lekce.
-
-Konkrétní domácí úkol z této lekce aktuálně neexistuje. Neformální doporučení zní znovu si ukázky z hodiny doma projít
-a zkusit si je mírně modifikovat.
 
 ### Guess the number
 
