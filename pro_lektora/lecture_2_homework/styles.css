@@ -1,0 +1,52 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.theme-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.theme-item {
+    padding: 0.5rem;
+}
+
+.theme-blue {
+	background-color: #e3f2fd;
+	color: #37474f;
+}
+.theme-beige {
+	background-color: #f5f5dc;
+	color: #5d4037;
+}
+.theme-green {
+	background-color: #e8f5e9;
+	color: #2e7d32;
+}
+.theme-dark {
+	background-color: #263238;
+	color: #cfd8dc;
+}
+
+#vstupy {
+	border-right: 1px solid lightgray;
+	padding: 2rem;
+}
+
+#vysledek {
+	padding: 2rem;
+}
+
+#vysledek img {
+	width: 50%;
+}
