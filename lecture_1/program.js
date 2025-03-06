@@ -71,3 +71,17 @@
 
 // let prepona = delkaPrepony(3, 4);
 // console.log(prepona);
+
+// --------------------------------------------------
+
+// // Funkce pro vygenerování náhodného celého čísla mezi hodnotami minimum (včetně) a maximum (včetně).
+// function nahodneCislo(minimum, maximum) {
+// 	let vysledek = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+// 	return vysledek;
+// }
+
+// // Funkce pro hod hrací kostkou o libovolném počtu stěn. Pro obvyklou kostku by se použilo volání hodKostkou(6).
+// function hodKostkou(pocetSten) {
+// 	let vysledek = nahodneCislo(1, pocetSten);
+// 	return vysledek;
+// }
