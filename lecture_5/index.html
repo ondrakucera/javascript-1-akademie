@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<script src="program.js" defer></script>
+		<title>Uhodnu číslo!</title>
+	</head>
+	<!-- body má následující třídy vyjadřující stav hry: pred-hrou, pri-hre a po-hre -->
+	<body class="pred-hrou">
+		<header>
+			<h1>Uhodnu číslo!</h1>
+		</header>
+		<main>
+			<section class="pokyny">
+				<h2>Pokyny</h2>
+				<ul>
+					<li>Mysli si číslo od 1 do 100 (případně můžeš rozsah upravit níže).</li>
+					<li>Až budeš připraven(a), stiskni tlačítko Start.</li>
+				</ul>
+			</section>
+			<section class="hraci-pole">
+				<h2>Můj tip číslo <span class="cislo-tipu"></span>: <span class="aktualni-tip"></span></h2>
+				<h3>Trefil jsem se?</h3>
+			</section>
+			<section class="zahajeni-hry">
+				<div>
+					<input type="number" value="1" class="dolni-mez-vstup" />
+					<input type="number" value="100" class="horni-mez-vstup" />
+				</div>
+				<div><button class="tlacitko-start">Start</button></div>
+			</section>
+			<section class="ovladani-hry">
+				<button class="tlacitko-pridej">Přidej</button>
+				<button class="tlacitko-trefa">Trefa!</button>
+				<button class="tlacitko-uber">Uber</button>
+			</section>
+			<section class="restart-hry">
+				<button class="tlacitko-nova-hra">Chci hrát znovu!</button>
+			</section>
+		</main>
+	</body>
+</html>

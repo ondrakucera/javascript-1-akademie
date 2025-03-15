@@ -1,0 +1,29 @@
+.pred-hrou .hraci-pole {
+	display: none;
+}
+.pred-hrou .ovladani-hry {
+	display: none;
+}
+.pred-hrou .restart-hry {
+	display: none;
+}
+
+.pri-hre .pokyny {
+	display: none;
+}
+.pri-hre .zahajeni-hry {
+	display: none;
+}
+.pri-hre .restart-hry {
+	display: none;
+}
+
+.po-hre .pokyny {
+	display: none;
+}
+.po-hre .zahajeni-hry {
+	display: none;
+}
+.po-hre .ovladani-hry {
+	display: none;
+}
