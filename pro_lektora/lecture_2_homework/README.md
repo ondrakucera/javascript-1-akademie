@@ -25,5 +25,13 @@ kódem obsluhujícím jednotlivé výše popsané události. Je ovšem pravděpo
 i do HTML kódu, protože nejspíš budeš potřebovat některým elementům přiřadit vhodné identifikátory (atribut `id`), aby
 se ti s nimi z JavaScriptu lépe pracovalo.
 
+Ještě je potřeba upřesnit si, jak ze vstupního formulářového pole získáme text vyplněný uživatelem. Naštěstí to není
+nijak komplikované: hodnotu nalezneme ve vlastnosti `value` daného elementu, tedy následujícím způsobem:
+
+```javascript
+let vstupniPole = document.querySelector("#nejake-vstupni-pole");
+let hodnotaVyplnenaUzivatelem = vstupniPole.value;
+```
+
 Jako bonus můžeš stránce libovolným způsobem vylepšit styly v CSS, které jsou v rámci zadání záměrně opět velmi
 spartánské.
