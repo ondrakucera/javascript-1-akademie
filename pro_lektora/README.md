@@ -89,8 +89,6 @@ hádaných čísel. Stejně tak je možné hráče v počtu pokusů vysloveně o
 Nejlepší je ale skutečně v okamžiku, kdy je naprogramován základ hry jako takový nechat účastníky samotné navrhnout, co
 by se do hry mohlo ještě přidat.
 
-Součástí lekce je rovněž umístění elementu `script` do hlavičky dokumentu a obsluha události `load`.
-
 ### Guess the number reversed
 
 Obsah této celodenní lekce opět spočívá pouze v procvičování, tentokrát s ještě o něco větším důrazem na samostatnou
